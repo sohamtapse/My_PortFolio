@@ -6,7 +6,7 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <section className=" w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto">
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -26,6 +26,23 @@ const Hero = () => {
         </div>
       </div>
       <ComputersCanvas />
+      <div className="absolute sm:bottom-1 w-full flex justify-center items-center">
+        <a href="#about">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-gray-400 flex justify-center items-center p-2 ">
+            <motion.div
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              className="w-3 h-3 rounded-full bg-gray-400 mb-1"
+            />
+          </div>
+        </a>
+      </div>
     </section>
   );
 };

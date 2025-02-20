@@ -11,6 +11,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import Blank from "./components/Blank";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
+        <Blank />
         <About />
         <Experience />
         <Tech />
