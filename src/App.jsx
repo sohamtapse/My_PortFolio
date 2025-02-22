@@ -7,7 +7,7 @@ import {
   Feedbacks,
   Hero,
   Navbar,
-  // Tech,
+  Tech,
   Works,
   StarsCanvas,
 } from "./components";
@@ -26,8 +26,11 @@ const App = () => {
         </div>
         <Blank />
         <About />
-        <Blank />
-        {/* <Tech /> */}
+
+        <div className="md:block hidden">
+          <Blank />
+          <Tech />
+        </div>
         <Blank />
         <Experience />
         <Works />
