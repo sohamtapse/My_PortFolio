@@ -22,6 +22,8 @@ import {
   shopify,
   carrent,
   jobit,
+  scikitlearn,
+  pandas,
   tripguide,
   threejs,
 } from "../assets";
@@ -59,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Data Analisys",
+    title: "Data Analysis",
     icon: creator,
   },
 ];
@@ -84,10 +86,6 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -116,6 +114,14 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "pandas",
+    icon: pandas,
+  },
+  {
+    name: "scikitlearn",
+    icon: scikitlearn,
   },
 ];
 

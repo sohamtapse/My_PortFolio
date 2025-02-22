@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import pandas from "./tech/Pandas.png";
+import scikitlearn from "./tech/scikit-learn.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -45,6 +47,7 @@ export {
   figma,
   git,
   html,
+  scikitlearn,
   javascript,
   mongodb,
   nodejs,
@@ -54,6 +57,7 @@ export {
   typescript,
   threejs,
   meta,
+  pandas,
   axia,
   shopify,
   starbucks,
