@@ -26,6 +26,7 @@ const App = () => {
         </div>
         <Blank />
         <About />
+        <Blank />
         <Experience />
         <Tech />
         <Works />
