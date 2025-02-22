@@ -28,7 +28,7 @@ const ServiceCard = ({ index, title, icon }) => (
           className="w-16 h-16 object-contain transition-transform duration-300 hover:scale-110"
         />
 
-        <h3 className="text-white text-[20px] font-bold text-center">
+        <h3 className="text-white text-[20px] font-bold text-center transition-transform duration-300 hover:scale-110">
           {title}
         </h3>
       </div>
