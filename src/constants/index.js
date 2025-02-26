@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  logistic,
   javascript,
   typescript,
   html,
@@ -14,6 +15,7 @@ import {
   mongodb,
   git,
   figma,
+  cpp,
   docker,
   meta,
   starbucks,
@@ -21,6 +23,8 @@ import {
   tesla,
   shopify,
   carrent,
+  numpy,
+  NotGeminia,
   jobit,
   scikitlearn,
   pandas,
@@ -170,16 +174,60 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Real_TimeChatRoom",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The Real_TimeChatRoom_AIGemini project is a real-time chat application that allows users to communicate instantly. It has two main parts: the backend and the frontend. This setup ensures smooth and real-time communication between users. user can also chat with AI and AI can build proper file strucer of code.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mongo db",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Socket.IO",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link:
+      "https://github.com/sohamtapse/Real_TimeChatRoom_AIGemini",
+  },
+  {
+    name: "NOT-Gemini",
+    description:
+      "NOT-Gemini is a web development project that utilizes modern JavaScript technologies to build dynamic user interfaces.It is the clone of Gemini website but using some personal changes.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: NotGeminia,
+    source_code_link: "https://github.com/sohamtapse/NOT-Gemini",
+  },
+
+  {
+    name: "c++ compiler",
+    description:
+      "It is a C++ L-Graph compiler. I created this because using L-Graph typically requires installing libraries, which can be inconvenient. To simplify the process, I developed an online compiler that allows users to run L-Graph code without any installations.",
+    tags: [
+      {
+        name: "reat",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
@@ -187,50 +235,51 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: cpp,
+    source_code_link: "https://github.com/rusil3473/PBL-SEM-IV/tree/soham",
   },
   {
-    name: "Job IT",
+    name: "number_Predictor",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This Project is about trains neural network models to recognize handwritten digits from the MNIST dataset. It includes data loading, preprocessing (scaling and flattening), model creation (using keras.Sequential), training, evaluation, and visualization of results using confusion matrices and heatmaps.",
     tags: [
       {
-        name: "react",
+        name: "Tensorflow",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "matplot",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "numpy",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: numpy,
+    source_code_link:
+      "https://github.com/sohamtapse/number_Predictor_tensorflow",
   },
   {
-    name: "Trip Guide",
+    name: "Breast_Cancer_prediction",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This code trains a Logistic Regression model to predict breast cancer diagnosis (malignant/benign). It preprocesses the data by scaling features and converting the diagnosis to numerical values, then evaluates the model's accuracy and performance using a classification report. It also includes basic data exploration, like checking for missing values and visualizing the diagnosis distribution.",
     tags: [
       {
-        name: "nextjs",
+        name: "sklearn",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "matplot",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "pandas",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: logistic,
+    source_code_link: "https://github.com/sohamtapse/Breast_Cancer_prediction",
   },
 ];
 

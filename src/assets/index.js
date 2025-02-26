@@ -29,12 +29,19 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import axia from "./company/axia.png";
 
+import NotGeminia from "./NotGeminia.png";
+import cpp from "./cpp.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import numpy from "./numpy.png";
+import logistic from "./logistic.png";
 
 export {
   logo,
+  cpp,
+  numpy,
+  NotGeminia,
   backend,
   creator,
   mobile,
@@ -61,6 +68,7 @@ export {
   axia,
   shopify,
   starbucks,
+  logistic,
   tesla,
   carrent,
   jobit,

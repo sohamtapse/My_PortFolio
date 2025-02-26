@@ -33,6 +33,7 @@ const App = () => {
         </div>
         <Blank />
         <Experience />
+        <Blank />
         <Works />
         <Resume />
         <div className="relative z-0">
